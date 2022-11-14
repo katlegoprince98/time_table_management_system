@@ -1,3 +1,7 @@
+<?php
+   include('../model/model.php');
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,19 +13,24 @@
     <link rel="stylesheet" href="style.css">
     <title>Course</title>
 </head>
-<body>
-<form>
+<body><br><br>
+<form method="post" action="../model/model.php">
+<select name="course" id="">
+        <option >-- select course--</option>
+        <option value="<?php $values; ?>"><?php $values; ?></option>
+    </select><br><br>
   <div class="mb-3">
+    
     <label for="exampleInputEmail1" class="form-label">Faculty name</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input type="text" class="form-control" name="fac_name"  id="exampleInputPassword1">
     <div id="emailHelp" class="form-text"></div>
   </div>
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Faculty code</label>
-    <input type="text" class="form-control" id="exampleInputPassword1">
+    <label for="exampleInputPassword1"  class="form-label">Faculty code</label>
+    <input type="text" class="form-control" name="fac_code"  id="exampleInputPassword1">
   </div>
   
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" name="faculty" class="btn btn-primary">Submit</button>
 </form>
 </body>
 </html>
