@@ -9,19 +9,20 @@
     <link rel="stylesheet" href="style.css">
     <title>Course</title>
 </head>
-<body>
-<form>
+<body><br>
+<form action="../model/model.php" method="post">
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Course name</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text"></div>
+  <div id="emailHelp" class="form-text">Create course</div><br><br>
+    <label for="exampleInputEmail1" name="course_name" class="form-label">Course name</label>
+    <input type="text" class="form-control" name="course_name" id="exampleInputPassword1">
+    
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Course code</label>
-    <input type="text" class="form-control" id="exampleInputPassword1">
+    <input type="text" class="form-control" name="course_code" id="exampleInputPassword1">
   </div>
   
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary" name="course">Submit</button>
 </form>
 </body>
 </html>
