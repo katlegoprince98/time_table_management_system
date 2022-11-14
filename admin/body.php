@@ -11,7 +11,7 @@
         </div>
         <div class="navbar-collapse collapse move-me">
             <ul class="nav navbar-nav navbar-left">
-                <li><a href="addteachers.php">ADD COURSE</a></li>
+                <li><a href="../forms/course.php">ADD COURSE</a></li>
                 <li><a href="addsubjects.php">ADD FACULTY</a></li>
                 <li><a href="addclassrooms.php">ADD MODULE</a></li>
                 <li><a href="addclassrooms.php">ADD Lecture ROOMS</a></li>
