@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="style.css">
     <title>Course</title>
 </head>
-<body>
+<body><br><br>
 <form>
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Course name</label>
+    <label for="exampleInputEmail1" class="form-label">Lecture name</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     <div id="emailHelp" class="form-text"></div>
   </div>
