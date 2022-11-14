@@ -11,24 +11,11 @@
         </div>
         <div class="navbar-collapse collapse move-me">
             <ul class="nav navbar-nav navbar-left">
-                <li><a href="addteachers.php">ADD Lectures</a></li>
-                <li><a href="addsubjects.php">ADD Modules</a></li>
+                <li><a href="addteachers.php">ADD COURSE</a></li>
+                <li><a href="addsubjects.php">ADD FACULTY</a></li>
+                <li><a href="addclassrooms.php">ADD MODULE</a></li>
                 <li><a href="addclassrooms.php">ADD Lecture ROOMS</a></li>
-                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">ALLOTMENT
-                        <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href=allotsubjects.php>THEORY COURSES</a>
-                        </li>
-                        <li>
-                            <a href=allotpracticals.php>PRACTICAL COURSES</a>
-                        </li>
-                        <li>
-                            <a href=allotclasses.php>LECTURE HALLS</a>
-                        </li>
-                    </ul>
-                </li>
-               
+                <li><a href="addclassrooms.php">COURSE ALLOTMENT</a></li>
 
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -41,9 +28,7 @@
 <!--NAVBAR SECTION END-->
 <br>
 
-<div align="center" style="margin-top:20px">
-    <button id="teachermanual" class="btn btn-success btn-lg">ADD LECTURE</button>
-</div>
+
 
 <div id="myModal" class="modal">
 
