@@ -12,10 +12,10 @@
         <div class="navbar-collapse collapse move-me">
             <ul class="nav navbar-nav navbar-left">
                 <li><a href="../forms/course.php">ADD COURSE</a></li>
-                <li><a href="addsubjects.php">ADD FACULTY</a></li>
-                <li><a href="addclassrooms.php">ADD MODULE</a></li>
-                <li><a href="addclassrooms.php">ADD Lecture ROOMS</a></li>
-                <li><a href="addclassrooms.php">COURSE ALLOTMENT</a></li>
+                <li><a href="../forms/faculty.php">ADD FACULTY</a></li>
+                <li><a href="../forms/module.php">ADD MODULE</a></li>
+                <li><a href="../forms/room.php">ADD Lecture ROOMS</a></li>
+                <li><a href="../forms/allot.php">COURSE ALLOTMENT</a></li>
 
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -27,66 +27,6 @@
 </div>
 <!--NAVBAR SECTION END-->
 <br>
-
-
-
-<div id="myModal" class="modal">
-
-    <!-- Modal content -->
-    <div class="modal-content" style="margin-top: -60px">
-        <div class="modal-header">
-            <span class="close">&times</span>
-            <h2 id="popupHead">Add Lectures</h2>
-        </div>
-        <div class="modal-body" id="EnterTeacher">
-            <!--Add Lecture form-->
-            <div style="display:none" id="addTeacherForm">
-            <form action="addteacherFormValidation.php" method="POST">
-                    <div class="form-group">
-                        <label for="teachername">Lecture's Name</label>
-                        <input type="text" class="form-control" id="teachername" name="TN"
-                               placeholder="Lecture's Name ...">
-                    </div>
-                    <div class="form-group">
-                        <label for="TF">Faculty No</label>
-                        <input type="text" class="form-control" id="facultyno" name="TF" placeholder="Faculty No ...">
-                    </div>
-                    <div class="form-group">
-                        <label for="TF">Alias</label>
-                        <input type="text" class="form-control" id="alias_name" name="AL" placeholder="Alias..">
-                    </div>
-                    <div class="form-group">
-                        <label for="designation">Designation</label>
-
-                        <select class="form-control" id="designation" name="TD">
-                            <option selected disabled>Select</option>
-                            <option value="Professor">Professor</option>
-                            <option value="Assistant Professor">Assistant Professor</option>
-                            <option value="Associate Professor">Associate Professor</option>
-                            <option value="Lecture">Lecture</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="teachercontactnumber">Contact No.</label>
-                        <input type="text" class="form-control" id="teachercontactnumber" name="TP"
-                               placeholder="+27 ...">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="teacheremailid">Email-ID</label>
-                        <input type="text" class="form-control" id="teacheremailid" name="TE"
-                               placeholder="abc@gmail.com ...">
-                    </div>
-                    <div align="right">
-                        <input type="submit" class="btn btn-default" name="ADD" value="ADD">
-                    </div>
-                </form>
-            </div>
-        </div>
-        <div class="modal-footer">
-        </div>
-    </div>
-</div>
 
 <script>
     // Get the modal
