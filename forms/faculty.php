@@ -1,5 +1,10 @@
 <?php
    include('../model/model.php');
+   $result = getCourseName();
+   $option = '';
+   while($row = mysqli_fetch_assoc($result)){
+     $option = $option . '<option>'.$row["course_name"].'</option>';
+   }   
 
 ?>
 <!DOCTYPE html>
@@ -17,7 +22,7 @@
 <form method="post" action="../model/model.php">
 <select name="course" id="">
         <option >-- select course--</option>
-        <option value="<?php $values; ?>"><?php $values; ?></option>
+        <option value="?php echo ($option);  ?>"><?php echo $option;  ?></option>
     </select><br><br>
   <div class="mb-3">
     

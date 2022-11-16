@@ -1,5 +1,5 @@
 <?php
- session_start();
+
 
    include ('config.php');
   /////////////////////////////////////////////////////////////////////////////////
@@ -20,17 +20,14 @@
    }
    ///////////////////////////////////////////////////////////////////////////
    // select list of course name to obtain course ID
+
+    function getCourseName(){
+      include ('config.php');
+      $get = 'SELECT course_name FROM course'; 
+      return mysqli_query($conn,$get);
     
-     include ('config.php');
-    $get = 'SELECT course_name FROM course'; 
-    return $conn->query($get);
-    while($row = mysqli_fetch_assoc($result)){
-      $_SESSION['options'] = 'ff'; 
     }
     
-
-
-
    if(isset($_POST['course'])){
       $course = $_POST['course'];
       $fac_name = $_POST['fac_name'];
