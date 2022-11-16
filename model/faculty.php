@@ -1,4 +1,6 @@
 <?php
+  include ('config.php');
+
    function getCourseName(){
     include ('config.php');
     $get = 'SELECT course_name FROM course'; 

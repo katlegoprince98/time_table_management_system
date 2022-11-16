@@ -19,7 +19,7 @@
     <title>Faculty</title>
 </head>
 <body><br><br>
-<form method="post" action="../model/model.php">
+<form method="post" action="../model/faculty.php">
 <select name="course" id="">
         <option >-- select course--</option>
         <option value="?php echo ($option);  ?>"><?php echo $option;  ?></option>
