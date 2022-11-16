@@ -33,6 +33,20 @@
       $fac_name = $_POST['fac_name'];
       $fac_code = $_POST['fac_code'];
 
+      $obt = 'SELECT course_id FROM course WHERE course_name = "$course"';
+      $id = mysqli_query($conn,$obt);
+
+      $put = 'INSERT INTO faculty (course_id, faculty_name, faculty_code)
+       VALUES ("$course","$fac_name","$id")';
+       mysqli_query($conn,$put);
+
+       ?>
+      <script>
+        window.alert('Faculty created successfully created');
+    
+      </script>
+      <?php
+      header ('location:../forms/faculty.php');
       
    }
 ?>

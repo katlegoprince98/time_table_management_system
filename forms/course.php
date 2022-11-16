@@ -10,7 +10,7 @@
     <title>Course</title>
 </head>
 <body><br>
-<form action="../model/model.php" method="post">
+<form action="../model/course.php" method="post">
   <div class="mb-3">
   <div id="emailHelp" class="form-text">Create course</div><br><br>
     <label for="exampleInputEmail1" name="course_name" class="form-label">Course name</label>
