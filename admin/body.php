@@ -81,15 +81,14 @@
 
 <!--Table used to display all  The registered Lectures-->
     <table id=teacherstable style="margin-left: 80px">
-        <caption><strong>Teacher's Information </strong></caption>
+        <caption><strong>Exams Time table</strong></caption>
         <tr>
-            <th width="130">Faculty No</th>
-            <th width=290>Name</th>
-            <th width=50>Alias</th>
-            <th width="190">Designation</th>
-            <th width="190">Contact No.</th>
-            <th width="290">Email ID</th>
-            <th width="40">Action</th>
+            <th width="130">Monday</th>
+            <th width=290>Tuesday</th>
+            <th width=50>Wednesday</th>
+            <th width="190">Thursday</th>
+            <th width="190">Friday</th>
+            
         </tr>
         <tbody>
         <?php

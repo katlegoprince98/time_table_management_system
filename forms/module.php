@@ -10,18 +10,36 @@
     <title>Course</title>
 </head>
 <body><br><br>
-<form>
+<form action="../forms/module.php" method="post">
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Module name</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <label for="exampleInputEmail1" class="form-label">Start date</label>
+    <input type="text" name="start" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     <div id="emailHelp" class="form-text"></div>
   </div>
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Module code</label>
-    <input type="text" class="form-control" id="exampleInputPassword1">
+    <label for="exampleInputPassword1" class="form-label">End date</label>
+    <input type="text" name="end" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Day</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" name="day" class="form-text"></div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Room</label>
+    <input type="text" name="room" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Module</label>
+    <input type="text" name="module" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text"></div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Invigilator</label>
+    <input type="text" name="invigilator" class="form-control" id="exampleInputPassword1">
   </div>
   
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" name="submit" class="btn btn-primary">Submit</button>
 </form>
 </body>
 </html>
