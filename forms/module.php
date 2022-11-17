@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Course</title>
 </head>
-<body>
+<body><br><br>
 <form>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Module name</label>
@@ -24,4 +24,4 @@
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 </body>
-</html>vvv
+</html>
